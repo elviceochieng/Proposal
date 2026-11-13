@@ -3,29 +3,71 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>A Special Question ❤️</title>
+
     <link rel="stylesheet" href="/static/style.css">
 </head>
+
 <body>
 
-    <div class="container">
-        <div class="heart">❤️</div>
+    <!-- Floating background hearts -->
+    <div class="floating-hearts">
+        <span>❤️</span>
+        <span>💕</span>
+        <span>💗</span>
+        <span>💖</span>
+        <span>💘</span>
+        <span>❤️</span>
+        <span>💝</span>
+        <span>💕</span>
+    </div>
 
-        <h1>Hey Kabura! 🥰</h1>
+    <!-- Main proposal card -->
+    <main class="container">
 
-        <p class="message">
-            There's something I've been wanting to ask you...
+        <div class="top-label">A LITTLE QUESTION FOR YOU</div>
+
+        <div class="main-heart">❤️</div>
+
+        <h1>Hey Kabura🥰️!</h1>
+       
+        it's me Elvice😊️
+
+        <p class="subtitle">
+            I've got something special to ask you...
         </p>
 
-        <h2>Will you be my girlfriend? 💕</h2>
-
-        <div class="buttons">
-            <button onclick="sendAnswer('Yes')">YES ❤️</button>
-            <button onclick="sendAnswer('No')">NO 💔</button>
+        <div class="divider">
+            <span>♥</span>
         </div>
 
-        <p id="response"></p>
-    </div>
+        <h2>Will you be my girlfriend?</h2>
+
+        <p class="description">
+            Life may not be perfect, but I'd love to make beautiful
+            memories with you. 🥹
+        </p>
+
+        <div class="buttons">
+
+            <button class="yes-button" onclick="sendAnswer('Yes')">
+                YES! ❤️
+            </button>
+
+            <button class="no-button" onclick="sendAnswer('No')">
+                NO 💔
+            </button>
+
+        </div>
+
+        <div id="response"></div>
+
+        <footer>
+            Made with ❤️ just for you
+        </footer>
+
+    </main>
 
     <script src="/static/script.js"></script>
 
